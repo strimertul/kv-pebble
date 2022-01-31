@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/cockroachdb/pebble v0.0.0-20220127212634-b958d9a7760b
-	github.com/strimertul/kilovolt/v7 v7.1.1
+	github.com/strimertul/kilovolt/v8 v8.0.0
 )
 
 require (

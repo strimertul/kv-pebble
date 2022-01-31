@@ -190,8 +190,8 @@ github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81P
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
-github.com/strimertul/kilovolt/v7 v7.1.1 h1:deLzr2DGjgvJ75qWcguq6kW/fVJy7pdl2bxx5w1bPss=
-github.com/strimertul/kilovolt/v7 v7.1.1/go.mod h1:Prg0p9gujLdOsPWM/jpcqMP/1tsXB0yVql6WnRdVSYg=
+github.com/strimertul/kilovolt/v8 v8.0.0 h1:FSuq40kHT1G/LZJb3spwgBp7WuGtPvAik3ympIzSxl4=
+github.com/strimertul/kilovolt/v8 v8.0.0/go.mod h1:vW++ELCWnYzENIIP33p+zDGQjz/GpQ5z7YRCBrBtCzA=
 github.com/ugorji/go v1.1.4/go.mod h1:uQMGLiO92mf5W77hV/PUCpI3pbzQx3CRekS0kk+RGrc=
 github.com/ugorji/go/codec v0.0.0-20181204163529-d75b2dcb6bc8/go.mod h1:VFNgLljTbGfSG7qAOspJ7OScBnGdDN/yBr0sguwnwf0=
 github.com/urfave/negroni v1.0.0/go.mod h1:Meg73S6kFm/4PpbYdq35yYWoCZ9mS/YSx+lKnmiohz4=
