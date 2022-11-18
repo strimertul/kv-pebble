@@ -11,7 +11,7 @@ package example
 
 import (
 	"github.com/cockroachdb/pebble"
-	kv "github.com/strimertul/kilovolt/v7"
+	kv "github.com/strimertul/kilovolt/v9"
 	pebble_driver "github.com/strimertul/kv-pebble"
 )
 

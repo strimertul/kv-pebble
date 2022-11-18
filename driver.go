@@ -2,7 +2,7 @@ package pebble_driver
 
 import (
 	"github.com/cockroachdb/pebble"
-	kv "github.com/strimertul/kilovolt/v8"
+	kv "github.com/strimertul/kilovolt/v9"
 )
 
 type Driver struct {
@@ -16,7 +16,6 @@ func NewPebbleBackend(db *pebble.DB, sync bool) Driver {
 
 func (b Driver) Get(key string) (string, error) {
 	out, closer, err := b.db.Get([]byte(key))
-
 	if err != nil {
 		if err == pebble.ErrNotFound {
 			return "", kv.ErrorKeyNotFound
