@@ -2,7 +2,7 @@ package pebble_driver
 
 import (
 	"github.com/cockroachdb/pebble"
-	kv "github.com/strimertul/kilovolt/v9"
+	kv "github.com/strimertul/kilovolt/v10"
 )
 
 type Driver struct {

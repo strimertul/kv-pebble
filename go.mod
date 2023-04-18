@@ -3,8 +3,8 @@ module github.com/strimertul/kv-pebble
 go 1.19
 
 require (
-	github.com/cockroachdb/pebble v0.0.0-20230209222158-0568b5fd3d14
-	github.com/strimertul/kilovolt/v9 v9.0.1
+	github.com/cockroachdb/pebble v0.0.0-20230418161327-101876aa7088
+	github.com/strimertul/kilovolt/v10 v10.0.0
 )
 
 require (
@@ -34,7 +34,7 @@ require (
 	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
-	go.uber.org/zap v1.23.0 // indirect
+	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/exp v0.0.0-20230206171751-46f607a40771 // indirect
 	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
