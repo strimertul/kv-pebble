@@ -45,7 +45,10 @@ func (b Driver) GetBulk(keys []string) (map[string]string, error) {
 }
 
 func (b Driver) GetPrefix(prefix string) (map[string]string, error) {
-	iter := b.db.NewIter(prefixIterOptions([]byte(prefix)))
+	iter, err := b.db.NewIter(prefixIterOptions([]byte(prefix)))
+	if err != nil {
+		return nil, err
+	}
 	out := make(map[string]string)
 	for iter.First(); iter.Valid(); iter.Next() {
 		out[string(iter.Key())] = string(iter.Value())
@@ -72,7 +75,10 @@ func (b Driver) Delete(key string) error {
 }
 
 func (b Driver) List(prefix string) ([]string, error) {
-	iter := b.db.NewIter(prefixIterOptions([]byte(prefix)))
+	iter, err := b.db.NewIter(prefixIterOptions([]byte(prefix)))
+	if err != nil {
+		return nil, err
+	}
 	out := []string{}
 	for iter.First(); iter.Valid(); iter.Next() {
 		out = append(out, string(iter.Key()))
