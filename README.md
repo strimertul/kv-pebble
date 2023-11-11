@@ -1,3 +1,5 @@
+# MOVED TO <https://git.sr.ht/~ashkeel/kilovolt-driver-pebble>
+
 # Pebble driver for Kilovolt
 
 Simple Pebble driver for Kilovolt.
